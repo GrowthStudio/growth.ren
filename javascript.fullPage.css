@@ -194,3 +194,170 @@ html.fp-enabled,
 #fp-nav ul li .fp-tooltip.left {
     left: 20px;
 }
+
+/* Reset CSS
+        * --------------------------------------- */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre,
+form, fieldset, input, textarea, p, blockquote, th, td {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+table {
+    border-spacing: 0;
+}
+
+fieldset, img {
+    border: 0;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+    font-weight: normal;
+    font-style: normal;
+}
+
+strong {
+    font-weight: bold;
+}
+
+ol, ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+caption, th {
+    text-align: left;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    color: #444;
+}
+
+q:before, q:after {
+    content: '';
+}
+
+abbr, acronym {
+    border: 0;
+}
+
+/* Custom CSS
+ * --------------------------------------- */
+body {
+    font-family: arial, helvetica;
+    color: #F2F2F2;
+}
+
+h1 {
+    font-size: 6em;
+}
+
+p {
+    font-size: 2em;
+}
+
+.content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+/* Section 1
+ * --------------------------------------- */
+#section0 {
+    background-color: #BFDA00;
+}
+
+#section0 h1 {
+    color: #444;
+}
+
+#section0 p {
+    color: #333;
+    opacity: 0.4;
+}
+
+/* Section 2
+ * --------------------------------------- */
+#section1 {
+    background-color: #2EBE21;
+}
+
+#section1 h1 {
+    color: #fff;
+}
+
+#section1 p {
+    opacity: 0.8;
+}
+
+/* Section 3
+ * --------------------------------------- */
+#section2 {
+    background-color: #2C3E50;
+}
+
+#section2 h1 {
+    color: #F2F2F2;
+}
+
+#section2 p {
+    opacity: 0.6;
+}
+
+a {
+    color: #fff;
+}
+#menu li {
+    display:inline-block;
+    margin: 10px;
+    color: #000;
+    background:#fff;
+    background: rgba(255,255,255, 0.5);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+#menu li.active{
+    background:#666;
+    background: rgba(0,0,0, 0.5);
+    color: #fff;
+}
+#menu li a{
+    text-decoration:none;
+    color: #000;
+}
+#menu li.active a:hover{
+    color: #000;
+}
+#menu li:hover{
+    background: rgba(255,255,255, 0.8);
+}
+#menu li a,
+#menu li.active a{
+    padding: 9px 18px;
+    display:block;
+}
+#menu li.active a{
+    color: #fff;
+}
+#menu{
+    position:fixed;
+    top:0;
+    left:0;
+    height: 40px;
+    z-index: 70;
+    width: 100%;
+    padding: 0;
+    margin:0;
+}
