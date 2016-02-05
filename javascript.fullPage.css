@@ -276,16 +276,17 @@ p {
 /* Section 1
  * --------------------------------------- */
 #section0 {
-    background-color: #BFDA00;
+    color: #fff;
+    background-color: #5e6772;
 }
 
 #section0 h1 {
-    color: #444;
+    color: #fff;
 }
 
 #section0 p {
-    color: #333;
-    opacity: 0.4;
+    color: #fff;
+    opacity: 0.9;
 }
 
 /* Section 2
@@ -324,7 +325,7 @@ a {
     margin: 10px;
     color: #000;
     background:#fff;
-    background: rgba(255,255,255, 0.5);
+    background: rgba(255,255,255, 0.4);
     -webkit-border-radius: 10px;
     border-radius: 10px;
 }
@@ -335,7 +336,7 @@ a {
 }
 #menu li a{
     text-decoration:none;
-    color: #000;
+    color: #fff;
 }
 #menu li.active a:hover{
     color: #000;
