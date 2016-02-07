@@ -21,3 +21,9 @@ Growth是一款专注于Web开发者成长的应用，涵盖Web开发的流程�
  - 玩玩小游戏了解技能掌握状况
  - 一键解锁新技能，形成技能图谱 
  - 一步步成为Web顶尖开发者 
+
+###License
+
+© 2016 [Phodal Huang](http://www.phodal.com). See `LICENSE.txt` in this directory.
+
+[待我代码编成，娶你为妻可好](http://www.xuntayizhan.com/person/ji-ke-ai-qing-zhi-er-shi-dai-wo-dai-ma-bian-cheng-qu-ni-wei-qi-ke-hao-wan/)
