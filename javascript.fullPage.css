@@ -305,14 +305,17 @@ p {
 
 /* Section 3
  * --------------------------------------- */
+#section3,
 #section2 {
     background-color: #2C3E50;
 }
 
+#section3 h1,
 #section2 h1 {
     color: #F2F2F2;
 }
 
+#section3 p,
 #section2 p {
     opacity: 0.6;
 }
