@@ -12,8 +12,10 @@
 
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="javascript.fullPage.css"/>
-    <script type="text/javascript" src="javascript.fullPage.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/javascript.fullPage.css"/>
+    <script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+    <script type="text/javascript" src="js/jquery.smartbanner.js"></script>
 </head>
 <body>
 
@@ -121,10 +123,12 @@
 </div>
 </body>
 <script type="text/javascript">
-    fullpage.initialize('#fullpage', {
-        anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
-        menu: '#menu',
-        css3: true
+    $(document).ready(function () {
+        $('#fullpage').fullpage({
+            anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+            menu: '#menu',
+            css3: true
+        })
     });
 </script>
 </html>
