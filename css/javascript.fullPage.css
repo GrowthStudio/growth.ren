@@ -565,3 +565,69 @@ a {
     width: 80%;
     margin: 0 auto;
 }
+
+.u-arrow-bottom {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 150;
+    width: 24px;
+    height: 14px;
+    margin-left: -7px
+}
+
+.u-arrow-bottom img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -7px 0 0 -14px;
+    width: 24px;
+    height: 12px;
+    background-position: 0 -82px;
+    -webkit-animation: start 1.5s infinite ease-in-out;
+    -moz-animation: start 1.5s infinite ease-in-out;
+    animation: start 1.5s infinite ease-in-out
+}
+
+.pre-wrap {
+    width: 32px;
+    height: 24px;
+    position: relative;
+    -webkit-animation: start 1.5s infinite ease-in-out;
+    -moz-animation: start 1.5s infinite ease-in-out;
+    animation: start 1.5s infinite ease-in-out
+}
+
+.pre-box1,.pre-box2 {
+    height: 36px;
+    width: 40px;
+    position: absolute;
+    top: -5px;
+    overflow: hidden
+}
+
+.pre-box2 {
+    left: 10px
+}
+
+.pre1,.pre2 {
+    background-color: #fff;
+    width: 32px;
+    height: 12px;
+    border-radius: 2px;
+    position: absolute;
+    box-shadow: 1px -1px 1px #646464;
+    top: 5px
+}
+
+.pre1 {
+    transform : rotate(130deg);
+    -webkit-transform : rotate(130deg);
+    left: 1px
+}
+
+.pre2 {
+    left: 10px;
+    -webkit-transform : rotate(50deg);
+    transform : rotate(50deg)
+}
