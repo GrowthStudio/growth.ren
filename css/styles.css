@@ -635,6 +635,10 @@ a {
 div#smartbanner {
     display: block!important;
 }
+.appdownload {
+    width: 100%;
+    text-align: center;
+}
 @media (min-width: 1024px) {
     #section0 .content {
         top: 30%;
