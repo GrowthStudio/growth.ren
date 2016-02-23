@@ -631,3 +631,7 @@ a {
     -webkit-transform : rotate(50deg);
     transform : rotate(50deg)
 }
+
+div#smartbanner {
+    display: block!important;
+}
