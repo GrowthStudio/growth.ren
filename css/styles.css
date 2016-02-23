@@ -635,3 +635,11 @@ a {
 div#smartbanner {
     display: block!important;
 }
+@media (min-width: 1024px) {
+    #section0 .content {
+        top: 30%;
+        text-align: left;
+        width: 80%;
+        margin: 0 auto;
+    }
+}
