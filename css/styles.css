@@ -328,7 +328,7 @@ p {
 
 .content {
     position: relative;
-    top: 30%;
+    top: 10%;
     transform: translateY(-50%);
     text-align: center;
 }
